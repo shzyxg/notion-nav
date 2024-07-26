@@ -1,6 +1,5 @@
 const CONFIG = {
   DATASOURCE: process.env.DATASOURCE || 'notion', // notion, flowus
-  // Important page_id！！！Duplicate Template from  https://dingliu.notion.site/NotionPortal-Template-354428ac80374a9d84a1890225578a0b
   WEBSITE_NOTION_PAGE_ID: process.env.WEBSITE_NOTION_PAGE_ID || 'c8ebaeee69d043aca417082132a28c94',
   LINKS_NOTION_PAGE_ID: process.env.LINKS_NOTION_PAGE_ID || 'c785fe6d63204aa1a30797dfc749b25c',
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
